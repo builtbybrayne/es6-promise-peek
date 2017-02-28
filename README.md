@@ -19,6 +19,8 @@ $ npm install --save es6-promise-peek
 ## Usage 
 
 ```
+require("es6-promise-peek");
+
 Promise.resolve("a")
     .peek(console.log)
     .then(console.log)
