@@ -1,6 +1,6 @@
 {
   "name": "es6-promise-peek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a &#39;peek&#39; function to es6 promises",
   "main": "src/index.js",
   "scripts": {
