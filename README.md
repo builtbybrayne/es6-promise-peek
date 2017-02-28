@@ -31,6 +31,13 @@ Promise.resolve("a")
 
 **NB:** Return values from the function passed to `peek` are ignored - even if they are promises.
 
+```
+Promise.resolve("original")
+    .peek(x => "hijack"}
+    .then(console.log)
+// => "original"
+```
+
 
 ## Environments
 
