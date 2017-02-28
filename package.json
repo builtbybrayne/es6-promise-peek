@@ -17,6 +17,11 @@
     "email": "al@builtbybrayne.com",
     "url": "http://builtbybrayne.com"
   },
+  "keywords": [
+    "es6",
+    "promise",
+    "peek"
+  ],
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
