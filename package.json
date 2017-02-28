@@ -31,10 +31,9 @@
     "mocha": "^2.3.4",
     "parallelshell": "^2.0.0",
     "sinon": "^1.17.7",
+    "sinon-as-promised": "^4.0.2",
+    "sinon-chai": "^2.8.0",
     "watch": "^0.17.1"
   },
-  "dependencies": {
-    "sinon-as-promised": "^4.0.2",
-    "sinon-chai": "^2.8.0"
-  }
+  "dependencies": {}
 }
