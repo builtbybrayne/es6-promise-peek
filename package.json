@@ -1,0 +1,35 @@
+{
+  "name": "es6-promise-peek",
+  "version": "1.0.0",
+  "description": "Adds a &#39;peek&#39; function to es6 promises",
+  "main": "src/index.js",
+  "scripts": {
+    "test:hint": "parallelshell 'npm run mocha' 'npm run watch:jshint'",
+    "watch:jshint": "watch 'jshint ./ --reporter=./node_modules/jshint-stylish/index.js' ./",
+    "mocha": "mocha test --watch --recursive",
+    "test": "mocha test --recursive",
+    "relink": "npm unlink && npm link",
+    "build": "npm run relink"
+  },
+  "repository": "perchten/es-promise-peek",
+  "author": {
+    "name": "Alastair Brayne",
+    "email": "al@builtbybrayne.com",
+    "url": "http://builtbybrayne.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.3.4",
+    "parallelshell": "^2.0.0",
+    "sinon": "^1.17.7",
+    "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "sinon-as-promised": "^4.0.2",
+    "sinon-chai": "^2.8.0"
+  }
+}

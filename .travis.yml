@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+- 6
+deploy:
+  api_key: 
+  email: al@builtbybrayne.com
+  provider: npm
+env:
+  global:
+    secure: XL/HyS85d3vgcAFfjIv9xDQNwwfFipL2rlKZiF3clOXLC0gTm5uLx2e75NWfNXF8K4vQedYs3SQ3AkynijjfwDyUsw/qlmDoO/qUntFjWXZtDH3io5cY/sPW4UszZT/4dpcgtRwmnzoDt3R1H0agPcXdwcPgMR6Aiwisijc/5kNGg5ItpQWsy6zhkYOEkC+GwNsIAumzjWhAukzMiLO9+wIqNwryLbNuOLTvVsbH/RTM/FS6vW9OcxbYV4dQOpnl7rCyy3YKTe9cDWJL6ibe4Ns2EfJv6LGPrH5PpbssZ4jX0PI/cM31pLdTQbFcPmv+EFd92BqNKlHNwQA0KtAVVDEv6AL+oTzyrZ+QenfV2tFAn2G06Ozh7hN3ESw/Xl88ZlF7wze8up1zuY3SNjcGheOgYl38S5odR6Jtgmr7XYDN57g8+5ha+l4EOYrxfQIFO9O3/xsbKBnEdlQxBx8a1qOSk1bOSQ+QPAWHfl+3LdSFAV0V7dSFw/XTMiogdG0kIpeOoDWCWEMrLwhtetiKhTTbVp+lOlVNdKsXD1mkyLDyVSNq1Wz2dwMZe/hcJT/LSmsQWikZynvn+zrTkrKABhAzqJsAhaSzzr9g5WD7bTz7q64ZEMMOEBmJ/iKo/5ZxnxTR9WIUvunh0XTJwDhOpuldW71HLS+cESXolIUaWUI=
